@@ -1,0 +1,230 @@
+body{
+    font-family: 'Montserrat' , sans-serif;
+}
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 4em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 1s all ease-in-out .5s;
+       -moz-transition: 1s all ease-in-out .5s; 
+        -ms-transition: 1s all ease-in-out .5s; 
+         -o-transition: 1s all ease-in-out .5s; 
+            transition: 1s all ease-in-out .5s;    
+}
+
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(../images/header-bg.jpg); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+}
+
+
+header{
+    position: relative;
+    background-color: black;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+   /* width: 1340px;*/
+    text-align: center;
+    padding-top: 0px;
+}
+
+nav.navbar {
+    background-color: transparent;
+}
+
+#logo{
+    font-family: 'Sedgwick Ave', cursive;
+    color: #FFCF60;
+}
+
+nav.navbar ul.nav a {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.letras{
+    color: white;
+    margin-top: 150px;
+}
+
+a{
+    color: white;
+}
+.letras h4{
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+}
+
+.letras h1{
+    font-size: 50px;
+}
+
+.colorbtn{
+    color: white;
+    text-decoration: none;
+}
+#titulo1{
+    background: white;
+    font-family: 'Indie Flower', cursive; 
+}
+
+/*Services section*/
+#services{
+    padding: 50px;
+}
+
+
+#titulo p{
+    font-family: 'Indie Flower', cursive; 
+}
+#services i{
+    font-size: 6em;
+    margin-bottom: 15px;
+    color: #F6D764;
+}
+
+.contenido{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    
+}
+
+/*Portfolio section*/
+#portfolio{
+    background-color: #CBC8C8;
+    padding: 15px 5px;
+}
+
+#portfolio p{
+    font-size: 21px;
+}
+
+/*ABOUT*/
+.margn{
+    padding: 10px;
+}
+
+#about p{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 21px;
+}
+
+.btn-circle {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+  line-height: 2.00;
+  border-radius: 200px;
+}
+/*team section*/
+#team{
+    background-color: #CBC8C8;
+    padding: 15px 5px;
+}
+
+#team i{
+    font-size: 4em;
+}
+
+.divFIn{
+    padding: 10px 50px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+/*Auspiciadores*/
+#auspiciadores{
+    padding: 15px 6px;
+}
+
+/*contact*/
+#contact{
+    position: relative;
+    background-color: #333;
+    background-image: url("../images/map-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 20px;
+    height: 500px;
+}
+
+#contact h1{
+    color: white;
+}
+
+/*footer*/
+footer{
+    padding: 50px;
+
+}
+
+.copy{
+    color: black;
+}
+
+.h5c{
+    color: #FFCE7E;
+}
+
+.icon i{
+    font-size: 3em;
+}
